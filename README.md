@@ -14,7 +14,7 @@
 ## 1. Architecture
 - https://flagly.org/
 ### **Architecture**
-![image](https://user-images.githubusercontent.com/54930877/151213519-4f122273-bca5-47b4-99e2-2f0aeb5b05f5.png)
+![image](https://user-images.githubusercontent.com/67141385/181452159-55f30063-524a-43a8-b9e0-55f556147040.png)
 
 ## 2. Installation Process
 - Requires a computer with an nvidia GPU.
