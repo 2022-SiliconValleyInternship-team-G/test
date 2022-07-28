@@ -74,8 +74,8 @@ Our project is not affiliated with any services of the LEGO company.
 This project is not intended for commercial use, please do not use it for commercial purposes.
 ## 6. Contact Information
 
-| Name    | 김유진                                        |정태원                               | 권종석                                        | 허민                                    |
-| ------- | --------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------------------- |
-| Profile | <img width="200px" src="https://user-images.githubusercontent.com/54930877/151215016-6f79b9e0-52c4-4150-aae1-c0acf99c1bc0.png" />|<img width="200px" src="https://user-images.githubusercontent.com/54930877/151215390-7c3efaa5-305e-41c5-aafe-42ca58aa4969.png" />| <img width="200px" src="https://user-images.githubusercontent.com/54930877/151215550-6eb72027-28aa-4aac-a82c-861c5f3ea683.png" />| <img width="200px" src="https://user-images.githubusercontent.com/54930877/151215125-698e1cea-1254-4f03-8bb1-d5011dbedfa0.png" />|
-| role    | Team ㅣLeader, <br>Backend                 | Backend & AI                         | Backend & AI                                 | Frontend |
-| Github  | [@Seyeon_Choi](https://github.com/barabobBOB) | [@teawon](https://github.com/teawon) | [@jongseok Kwon](https://github.com/himJJong) | [@Heo Min](https://github.com/hhhminme) |
+| Name    | 김소민                                         |김유진                                | 이진경                                         | 이주현                                  | 임연우                                    |
+| ------- | --------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------------------- |--------------------------------------- |
+| Profile | <img width="200px" src="" />|<img width="200px" src="" />| <img width="200px" src="" />| <img width="200px" src="" />| <img width="200px" src="" />|
+| role    | <br>Backend Developer                | Backend Developer                         | AI, Backend Developer                                 | Frontend Developer |AI
+| Github  | [@thals1214](https://github.com/thals1214) | [@Yujin-nKim](https://github.com/Yujin-nKim) | [@dooli1971039](https://github.com/dooli1971039) | [@JulieOnIsland](https://github.com/JulieOnIsland) |[@Lim-YeonWoo](https://github.com/Lim-YeonWoo) |
