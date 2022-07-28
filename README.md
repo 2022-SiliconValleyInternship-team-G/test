@@ -1,4 +1,4 @@
-# Lego2me
+# CarryCARI
 ![Frame 1](https://user-images.githubusercontent.com/54930877/151214445-027c87e3-d8c5-4cbc-aac9-7cec41e1e20d.jpg)
 ![151363026-4966f45c-4758-496f-bc26-aac1af291a63](https://user-images.githubusercontent.com/54930877/177606805-bb6f6c1d-e127-4cff-a776-492ab6085c5c.gif)
 
@@ -11,13 +11,10 @@
   - [5. Copyrights / End User Licesnse](#5-copyrights--end-user-licesnse)
   - [6. Contact Information](#6-contact-information)
 
-## 1. Prerequisites
-- Our service was created through the AI Application Development by Silicon Valley Engineering program organized by Headstart Silicon Valley. 
+## 1. Architecture
 - https://flagly.org/
 ### **Architecture**
 ![image](https://user-images.githubusercontent.com/54930877/151213519-4f122273-bca5-47b4-99e2-2f0aeb5b05f5.png)
-### **Dataware**
-![image](https://user-images.githubusercontent.com/54930877/151213688-5ee75c1f-e916-482f-890d-5bdf5c91352a.png)
 
 ## 2. Installation Process
 - Requires a computer with an nvidia GPU.
@@ -35,47 +32,44 @@ $ docker-compose up --build
 ![image](https://user-images.githubusercontent.com/54930877/151211337-11d81eed-b686-44a6-96b9-16c7bb6d9935.png)
 
 
-## 4. File Manifest && API
+## 4. File Structure
 ```
-├── README.md
-├── backend
-│   ├── ai
-│   ├── api
-│   ├── db.sqlite3
-│   ├── dockerfile
-│   ├── lego2me
-│   ├── manage.py
-│   └── requirements.txt
-├── docker-compose.prod.yml
-├── docker-compose.yml
-├── frontend
-│   ├── Dockerfile
-│   ├── README.md
-│   ├── components
-│   ├── next-env.d.ts
-│   ├── next.config.js
-│   ├── node_modules
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── pages
-│   ├── postcss.config.js
-│   ├── public
-│   ├── recoil
-│   ├── styles
-│   ├── tailwind.config.js
-│   └── tsconfig.json
-├── nginx
-│   └── nginx.conf
-└── nginx.conf
+📦CarryCARI
+ ┣ 📂_media
+ ┃ ┣ 📂result_images
+ ┃ ┗ 📂user_images
+ ┣ 📂assets
+ ┃ ┣ 📂user_image_latent
+ ┃ ┗ 📂result_image_clip
+ ┣ 📂cari
+ ┃ ┣ 📂migration
+ ┃ ┣ 📜admin.py
+ ┃ ┣ 📜apps.py
+ ┃ ┣ 📜models.py
+ ┃ ┣ 📜serializers.py
+ ┃ ┣ 📜tests.py
+ ┃ ┣ 📜urls.py
+ ┃ ┣ 📜views.py
+ ┃ ┗ 📜__init__.py
+ ┣ 📂CarryCARI_prj
+ ┃ ┣ 📜asgi.py
+ ┃ ┣ 📜settings.py
+ ┃ ┣ 📜urls.py
+ ┃ ┣ 📜wsgi.py
+ ┃ ┗ 📜__init__.py
+ ┣ 📂ml
+ ┃ ┣ 📂StyleCLIP-pytorch
+ ┃ ┣ 📂StyleCariGAN
+ ┃ ┗ 📜ai.py
+ ┣ 📂venv
+ ┣ 📜db.sqlite3
+ ┣ 📜manage.py
+ ┗ 📜README.md
 ```
 
-## 5. Copyrights / End User Licesnse
-Our project is not affiliated with any services of the LEGO company.
-This project is not intended for commercial use, please do not use it for commercial purposes.
-## 6. Contact Information
+## 5. Contact Information
 
 | Name    | 김소민                                         |김유진                                | 이진경                                         | 이주현                                  | 임연우                                    |
 | ------- | --------------------------------------------- | ------------------------------------ | --------------------------------------------- | --------------------------------------- |--------------------------------------- |
-| Profile | <img width="200px" src="" />|<img width="200px" src="" />| <img width="200px" src="" />| <img width="200px" src="" />| <img width="200px" src="" />|
 | role    | <br>Backend Developer                | Backend Developer                         | AI, Backend Developer                                 | Frontend Developer |AI
 | Github  | [@thals1214](https://github.com/thals1214) | [@Yujin-nKim](https://github.com/Yujin-nKim) | [@dooli1971039](https://github.com/dooli1971039) | [@JulieOnIsland](https://github.com/JulieOnIsland) |[@Lim-YeonWoo](https://github.com/Lim-YeonWoo) |
